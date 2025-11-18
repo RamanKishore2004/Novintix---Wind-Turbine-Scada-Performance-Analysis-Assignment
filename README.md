@@ -1,4 +1,4 @@
-**(1).Tech Stack Used:**
+**Tech Stack Used:**
 
 **Languages**
 
@@ -43,11 +43,11 @@
 
 Built LSTM forecasting models for all 4 variables:
 
-   Variable	           Model Used	         Output
-LV Active Power (kW)	   LSTM	         Predicted Power
-Wind Speed (m/s)	      LSTM	         Future Wind Speed
-Theoretical Power(kWh)	LSTM        	Expected Curve
-Wind Direction (°)	   LSTM         	Next Direction
+   Variable	            Model Used	         Output
+- LV Active Power (kW)	  LSTM	         Predicted Power
+- Wind Speed (m/s)	      LSTM	         Future Wind Speed
+- Theoretical Power(kWh)	LSTM        	 Expected Curve
+- Wind Direction (°)	    LSTM           Next Direction
 
 **Performance metrics used:**
 
@@ -59,7 +59,7 @@ Wind Direction (°)	   LSTM         	Next Direction
 
 **Task 3: Unsupervised Learning – Anomaly Detection**
 
-Detected underperforming points using:
+**Detected underperforming points using:**
 
 - Isolation Forest
 - Deviation from theoretical power curve
@@ -74,7 +74,7 @@ Detected underperforming points using:
 
 Performance categories:
 
-**Score** 	**Status**
- 80–100	     Good
- 50–80	     Moderate
- 0–50	        Poor
+  **Score** 	**Status**
+ - 80–100	     Good
+ - 50–80	     Moderate
+ - 0–50	       Poor
