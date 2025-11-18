@@ -2,68 +2,58 @@
 
 **Languages**
 
--Python
+- Python
 
 **Libraries**
 
--NumPy
--Pandas
--Matplotlib
--Seaborn
--Scikit-learn
--TensorFlow / Keras
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- TensorFlow / Keras
 
 **Machine Learning**
 
--Train/Test Split
--LSTM-based Time-Series Forecasting
--MinMax Scaling
--Model Evaluation (MAE, MSE, RMSE)
+- Train/Test Split
+- LSTM-based Time-Series Forecasting
+- MinMax Scaling
+- Model Evaluation (MAE, MSE, RMSE)
 
 **Unsupervised Learning**
 
--Z-score / Isolation Forest for anomaly detection
+- Z-score
 
 **AI / Automation**
 
--Performance scoring
--Rule-based AI recommendations
+- Performance scoring
+- Rule-based AI recommendations
 
 
 **Task 1: Exploratory Data Analysis (EDA)**
 
--> Converted Date-Time to proper format
--> Checked for missing & abnormal readings
--> Time-series plots for:
-
--LV Active Power
--Wind Speed
--Theoretical Power Curve
--Wind Direction
-
--> Scatterplot of Wind Speed vs Active Power to observe power curve
--> Trend analysis + noise patterns
-
--Performance scoring
--Rule-based AI recommendations
+- LV Active Power
+- Wind Speed
+- Theoretical Power Curve
+- Wind Direction
 
 
-
+  
 **Task 2: Time Series Forecasting (Supervised Learning)**
 
 Built LSTM forecasting models for all 4 variables:
 
    Variable	           Model Used	         Output
-LV Active Power (kW)	  LSTM	        Predicted Power
-Wind Speed (m/s)	      LSTM	        Future Wind Speed
+LV Active Power (kW)	   LSTM	         Predicted Power
+Wind Speed (m/s)	      LSTM	         Future Wind Speed
 Theoretical Power(kWh)	LSTM        	Expected Curve
-Wind Direction (°)	    LSTM         	Next Direction
+Wind Direction (°)	   LSTM         	Next Direction
 
 **Performance metrics used:**
 
--Mean Absolute Error (MAE)
--Mean Squared Error (MSE)
--Root MSE (RMSE)
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root MSE (RMSE)
 
 
 
@@ -71,9 +61,9 @@ Wind Direction (°)	    LSTM         	Next Direction
 
 Detected underperforming points using:
 
--Isolation Forest
--Deviation from theoretical power curve
--Z-score-based anomaly detection
+- Isolation Forest
+- Deviation from theoretical power curve
+- Z-score-based anomaly detection
 
 
 
@@ -87,4 +77,4 @@ Performance categories:
 **Score** 	**Status**
  80–100	     Good
  50–80	     Moderate
- 0–50	       Poor
+ 0–50	        Poor
